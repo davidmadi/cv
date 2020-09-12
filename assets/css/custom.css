@@ -1,0 +1,61 @@
+﻿/*
+    Ratings Stars
+    (with as little code as possible)
+*/
+
+
+.ratingone > span:before {
+    content: "\2605";
+}
+.ratingone > span:after {
+    content: "\2606\2606\2606\2606";
+}
+.ratingtwo > span:before {
+    content: "\2605\2605";
+}
+.ratingtwo > span:after {
+    content: "\2606\2606\2606";
+}
+.ratingthree > span:after {
+    content: "\2606\2606";
+}
+.ratingthree > span:before {
+    content: "\2605\2605\2605";
+}
+.ratingfour > span:after {
+    content: "\2606";
+}
+.ratingfour > span:before {
+    content: "\2605\2605\2605\2605";
+}
+.ratingfive > span:after {
+    content: "";
+}
+.ratingfive > span:before {
+    content: "\2605\2605\2605\2605\2605";
+}
+
+
+
+.ratingone,
+.ratingtwo,
+.ratingthree,
+.ratingfour,
+.ratingfive {
+    left: 0;
+    color: gold;
+}
+
+.col-md-3
+{
+    max-width:24%;
+}
+
+.testimonial .btn-linkedin {
+    float:right;
+}
+
+
+ul, li {
+    display: inline-block;
+}
